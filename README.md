@@ -1,6 +1,4 @@
 # odin-recipes
-the odin project - recipe project
-
 Hi there!
 
 This is my first project, started while completing The Foundations course in The Odin Project.
