@@ -1,0 +1,35 @@
+* {
+    background-color: #932af5;
+}
+
+body {
+    margin: 1.8in;
+}
+
+h1 {
+    color: rgb(251, 255, 0);
+    font-weight: 100;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: auto;
+    font-size: 85px;
+    width: 600px;
+    height: 105px;
+    border: 7px solid rgb(255, 87, 8);
+    background-color: rgba(217, 255, 0, 0.253);
+}
+
+p,
+ul,
+a:visited {
+    color: beige;
+    font-size: 28px;
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    color: rgb(251, 255, 0);
+}
