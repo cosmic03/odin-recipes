@@ -3,33 +3,57 @@
 }
 
 body {
-    margin: 1.8in;
+    text-align: center;
 }
 
 h1 {
-    color: rgb(251, 255, 0);
-    font-weight: 100;
+    color: rgb(31, 255, 151);
+    font-weight: 300;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center;
-    margin: auto;
+    margin: 50px auto 10px auto;
     font-size: 85px;
     width: 600px;
-    height: 105px;
-    border: 7px solid rgb(255, 87, 8);
+    padding: 10px;
+    border: 5px solid rgb(3, 205, 226);
     background-color: rgba(217, 255, 0, 0.253);
 }
 
-p,
-ul,
-a:visited {
-    color: beige;
-    font-size: 28px;
-    text-align: center;
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+img {
+    border: 3px solid rgb(3, 205, 226);
 }
 
 p {
-    color: rgb(251, 255, 0);
+    padding: 10px;
+    max-width: fit-content;
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    margin: 0 auto;   
+}
+
+em {
+    display: block;
+    margin-top: 20px;
+}
+
+a,
+a:visited,
+a:link {
+    color: rgb(31, 255, 151);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(3, 205, 226);
+}
+
+div {
+    background-color: rgb(255, 144, 240);
+    display: inline-block;
+    padding: 15px;
+    border: dotted #932af5;
+}
+
+.recipe {
+    display: inline-block;
+    border: 5px solid black;
 }
