@@ -1,50 +1,85 @@
-* {
+body {
     background-color: rgb(235, 134, 19);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin: 10px;
+    padding: 10px;
 }
 
 h1 {
     text-align: right;
     font-size: 300px;
-    padding-bottom: 0%;
+    font-weight: 100;
     padding-right: 15px;
     border: 2px solid rgb(0, 0, 0);
     float: right;
+    margin: 0 10px;
 }
 
 img {
-    padding-left: 0px;
     border: 2px solid black;
-    overflow: auto;
+    margin: 0 10px;
 }
 
-h3 {
+.order {
     text-align: right;
+    border: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    max-width: 800px;
+    margin 0;
+    padding-left: 280px;
+    
+}
+
+.content-description,
+.content-ingredient,
+.content-steps {
+    border: 2px solid black;
+    padding: 5px;
+}
+
+.title {
+    font-size: 20px;
+}
+
+.content-description {
+    margin-top: -32px;
+}
+
+.toppings {
+    padding-left: 50px;
+    list-style-type: square;
+}
+
+.content-ingredient,
+.content-steps,
+.content-description {
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+    margin-bottom: 10px;
+}
+
+.ingredients {
+    background-color: ;
+    list-style-type: none;
+    padding-left: 30px; 
+}
+
+li {
+    margin: 4px -6px;
 }
 
 .steps {
-    text-align: right;
+    margin-left: -15px;
 }
 
-ul {
-    text-align: right;
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-ol {
-    text-align: left;
-}
-
-a:visited {
+a:visited,
+a:link {
     color: rgb(0, 0, 0);
     font-size: 28px;
-    text-align: center;
     list-style-type: none;
-    padding: 0;
-    margin: 0;
+    padding-top: 5px;
+    display: inline-block;
 }
 
 em {
@@ -52,38 +87,4 @@ em {
     color: rgb(255, 255, 255);
     background-color: rgb(5, 5, 0);
     padding: .5%;
-}
-
-.toppings {
-    text-align: right;
-}
-
-.order {
-    text-align: right;
-    padding-right: 30px;
-    padding-bottom: 20px;
-    border: 0;
-    margin-top: 0;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-
-p {
-    text-align: right;
-}
-
-p,
-h3,
-ul,
-ol {
-    border: 2px solid black;
-    border-style: dotted;
-}
-
-.ingredients,
-.steps {
-    text-align: left;
-}
-
-.title {
-    border: 0;
 }
