@@ -1,0 +1,84 @@
+body {
+    background-color: rgb(255, 187, 187);
+}
+
+.head {
+    overflow: auto;
+}
+
+h1 {
+    font-size: 100px;
+    font-weight: 100;
+    float: left;
+    margin: 215px 0 0 70px;
+    
+}
+
+img {
+    float: right;
+    margin: 8px 130px 0 0;
+    border: 2px solid black;
+}
+
+.description,
+.ingredients,
+.steps {
+    margin: 8px;
+    padding: 5px 15px;
+}
+
+.description {
+    text-align: center;
+    background-color: beige;
+    border: 2px solid black;
+    max-width: 700px;
+    margin: 8px auto;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+.ingredients {
+    text-align: center;
+    background-color: bisque;
+    border: 2px solid black;
+    max-width: fit-content;
+    margin: 0 auto;
+}
+
+.ingredients li {
+    list-style-type: none;
+    margin-left: -40px;
+}
+
+.steps {
+    text-align: center;
+    margin: 8px auto;
+    background-color: beige;
+    border: 2px solid black;
+    max-width: 1000px;
+}
+
+.steps li {
+    margin-left: -20px;
+}
+
+a {
+    display: block;
+    max-width: max-content;
+    padding: 2px 5px;
+    margin: 8px auto;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: bisque;
+}
+
+a:link {
+    color: black;
+}
