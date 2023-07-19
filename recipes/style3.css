@@ -1,0 +1,69 @@
+body {
+    background-image: linear-gradient(to top right, orange, yellow);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img {
+    border: 2px solid black;
+    margin: 10px auto;
+    display: block;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 100;
+    margin: 20px auto;
+}
+
+h1,
+h3 {
+    text-align: center;
+}
+
+h3 {
+    background-color: black;
+    color: rgb(236, 224, 53);
+    width: fit-content;
+    padding: 10px 8px;
+    margin: auto;
+}
+
+.container {
+    background-image: linear-gradient(to top right, aqua, rgb(252, 250, 133));
+    margin: 10px auto;
+    padding: 20px;
+    border: 2px solid blue;
+    max-width: 800px;
+}
+
+p,
+li {
+    text-align: center;
+}
+
+ul li {
+    list-style: none;
+    margin-left: -45px;
+}
+
+a {
+    display: block;
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+    max-width: max-content;
+    padding: 6px 6px;
+    margin: 4px auto;
+}
+
+a:visited {
+    color: rgb(236, 224, 53);
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+}
+
+a:link {
+    color: rgb(236, 224, 53);
+}
